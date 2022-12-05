@@ -1,0 +1,115 @@
+.contact__container {
+  width: 58%;
+  display: grid;
+  grid-template-columns: 30% 59%;
+  gap: 12%;
+}
+.contact__options {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.contact__option {
+  background-color: var(--color-bg-variant);
+  padding: 1.2rem;
+  text-align: center;
+  border-radius: 1.2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+.contact__option:hover {
+  background-color: transparent;
+  border-color: var(--color-primary-variant);
+}
+
+.contact__option a {
+  margin-top: 0.9rem;
+  display: inline-block;
+  font-size: 0.8rem;
+}
+.contact__option h5 {
+  color: var(--color-light);
+}
+/* ============Form========== */
+form {
+  border: 1px solid var(--color-primary-variant);
+  padding: 2rem;
+}
+.form-control {
+  position: relative;
+  margin: 20px 0 40px;
+  width: 100%;
+}
+
+.form-control input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px #fff solid;
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 17px;
+  color: #fff;
+}
+
+.form-control input:focus,
+.form-control input:valid {
+  outline: 0;
+  border-bottom-color: lightblue;
+}
+
+.form-control label {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  pointer-events: none;
+}
+
+.form-control label span {
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  letter-spacing: 4px;
+  font-size: 0.99rem;
+  color: #fff;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control input:focus + label span,
+.form-control input:valid + label span {
+  color: lightblue;
+  transform: translateY(-35px);
+}
+form textarea {
+  background-color: transparent;
+  border: 2px solid var(--color-primary-variant);
+  color: white;
+  resize: none;
+  width: 100%;
+}
+form textarea::placeholder {
+  color: white;
+  font-size: 1rem;
+  font-style: italic;
+}
+form button {
+  margin: 1rem 0 1rem 11rem;
+}
+/* ===========media------------ */
+@media screen and (max-width: 1024px) {
+  .contact__container {
+    width: 70%;
+
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contact__container {
+    width: var(--container-width-sm);
+    grid-template-columns: 100%;
+  }
+  form button {
+    margin: 1rem 3.6rem;
+  }
+}

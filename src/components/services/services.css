@@ -36,10 +36,10 @@
     margin-bottom: 0.8rem;
 }
 .service__list-icon{
-    font-size: 3em;
+    font-size: 2rem;
 }
 .service__list p{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 @media screen and (max-width:1024px) {

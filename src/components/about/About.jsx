@@ -46,9 +46,11 @@ const About = () => {
             enthusiastic about learning, working hard and solving problems with
             a clean and functional design.
           </p>
-          <button>
-            <span>More</span>
-          </button>
+          <a href="#footer">
+            <button>
+              <span>More</span>
+            </button>
+          </a>
         </div>
       </div>
     </section>

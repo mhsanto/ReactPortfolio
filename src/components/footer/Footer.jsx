@@ -5,7 +5,7 @@ import { GrInstagram } from "react-icons/Gr";
 import "./footer.css";
 const Footer = () => {
   return (
-    <footer>
+    <footer id="footer">
       <a href="#" className="footer__logo">
         Santo
       </a>

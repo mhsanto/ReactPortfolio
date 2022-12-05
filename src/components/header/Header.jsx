@@ -8,17 +8,22 @@ const Header = () => {
   return (
     <header id="header">
       <div className="container header__container">
-        <h5>Hi,I'm</h5>
+        <h3>Hi,I'm</h3>
         <h1>Mahmodul Hasan Santo</h1>
-        <h5>FrontEnd Developer</h5>
+        <h3>FrontEnd Developer</h3>
         <CV />
         <Socials />
         <div className="me">
           <img src={ME} alt="My Image" />
         </div>
-        <a href="#contact" className="scroll__down">
-          Scroll Down
-        </a>
+        <div className="scroller">
+          <div class="scrolldown">
+            <div class="chevrons">
+              <div class="chevrondown"></div>
+              <div class="chevrondown"></div>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
   );

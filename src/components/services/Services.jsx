@@ -13,25 +13,19 @@ const Services = () => {
           </div>
           <ul className="service__list">
             <li>
-              <MdFileDownloadDone className="service__list-icon" />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Aspernremque?
-              </p>
+              <MdFileDownloadDone size={17} className="service__list-icon" />
+              <p>User Experience Design (UX/Ux)</p>
             </li>
             <li>
-              <MdFileDownloadDone className="service__list-icon" />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Aspernremque?
-              </p>
+              <MdFileDownloadDone size={17} className="service__list-icon" />
+              <p>Desktop/Mobile Design</p>
             </li>
 
             <li>
               <MdFileDownloadDone className="service__list-icon" />
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Aspernremque?
+                Designer creates designs that make users happy by making their
+                lives easier.
               </p>
             </li>
           </ul>
@@ -45,36 +39,31 @@ const Services = () => {
             <li>
               <MdFileDownloadDone className="service__list-icon" />
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Aspernremque?
+                I can help you create a user interface that is intuitive, easy
+                to use and appealing to the eye
               </p>
             </li>
             <li>
               <MdFileDownloadDone className="service__list-icon" />
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Aspernremque?
+                I can help you develop your website or app so that it's
+                intuitive, easy to use and appealing to the eye.
+              </p>
+            </li>
+
+            <li>
+              <MdFileDownloadDone className="service__list-icon" />
+              <p>
+                From the simple home page that greets your visitors to the
+                intricacies of how your site will work on a mobile device, I am
+                here to help you
               </p>
             </li>
             <li>
               <MdFileDownloadDone className="service__list-icon" />
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Aspernremque?
-              </p>
-            </li>
-            <li>
-              <MdFileDownloadDone className="service__list-icon" />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Aspernremque?
-              </p>
-            </li>
-            <li>
-              <MdFileDownloadDone className="service__list-icon" />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Aspernremque?
+                Setting up and maintaining a responsive website that looks great
+                on any device or screen size
               </p>
             </li>
           </ul>
@@ -82,36 +71,33 @@ const Services = () => {
         {/* end of WebDesign design */}
         <article className="service">
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>Extras</h3>
           </div>
           <ul className="service__list">
             <li>
-              <MdFileDownloadDone className="service__list-icon" />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Aspernremque?
-              </p>
+              <MdFileDownloadDone size={17} className="service__list-icon" />
+              <p>Can type 73+ word per minute</p>
             </li>
 
             <li>
               <MdFileDownloadDone className="service__list-icon" />
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Aspernremque?
+                I have a passion for seeing the best in people and helping them
+                to achieve their goals
               </p>
             </li>
             <li>
               <MdFileDownloadDone className="service__list-icon" />
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Aspernremque?
+                I am a self-starter who is passionate about learning new things,
+                building relationships with people
               </p>
             </li>
             <li>
               <MdFileDownloadDone className="service__list-icon" />
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Aspernremque?
+                I like to be challenged, but I also thrive in a team environment
+                where I can see my work come to life.
               </p>
             </li>
           </ul>

@@ -1,7 +1,7 @@
 import React from "react";
 import { BsFacebook } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
-import { GrInstagram } from "react-icons/Gr";
+import { GrInstagram } from "react-icons/gr";
 
 const Socials = () => {
   return (
